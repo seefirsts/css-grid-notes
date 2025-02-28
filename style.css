@@ -1,0 +1,27 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+}
+@media(max-width: 500px)
+.container {
+    grid-template-columns: 1fr
+}
+.grid-container {
+    max-width: 960px;
+    margin: 100px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px, 1fr);
+    gap: 10px;
+
+}
+.item {
+    background-color: #98a8f8;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid #CDFCF6;
+}
